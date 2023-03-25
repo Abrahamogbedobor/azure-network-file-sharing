@@ -38,7 +38,7 @@ The above figure was used to illustrate a general overview of network file shari
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The above figures outlines the steps used to create some files and share with permission. First, connection was made to DC-1 using the a domain admin account that was created bryanogbe.com\abraham_admin, then a connection into Client-1 using one of those random user that was created. Then on DC-1 on C:DRIVE, four folders was then created which includes "read-access", "write-access", "no-access", and "acounting". Again, share the following permission and folder created on DC-1 to the 'Domain Users' group 1. Read-access FOLDER to domain users permission READ 2. Write-access to domain users permission READ/WRITE 3. No-access
+The above figures outlines the steps used to create some files and share with permission. First, connection was made to DC-1 using the a domain admin account that was created bryanogbe.com\abraham_admin, then a connection into Client-1 using one of those random user that was created. Then on DC-1 on C:DRIVE, four folders was then created which includes "read-access", "write-access", "no-access", and "acounting". Again, share the following permission and folder created on DC-1 to the 'Domain Users' group 1. Read-access FOLDER to domain users permission GROUP READ 2. Write-access FOLDER to domain users permission GROUP READ/WRITE 3. No-access FOLDER to domain admins permission GROUP READ/WRITE. Then SKIP accounting for the now.
 </p>
 <br />
 
