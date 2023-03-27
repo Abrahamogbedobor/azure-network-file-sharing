@@ -1,5 +1,5 @@
 <p align="center">
-<img src="" alt="Azure Network File Sharing and Permission"/>
+<img src="https://i.imgur.com/EqUaRWN.png" alt="Azure Network File Sharing and Permission"/>
 </p>
 
 <h1>Network File Sharing and Permission</h1>
