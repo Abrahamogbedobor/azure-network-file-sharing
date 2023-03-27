@@ -73,9 +73,11 @@ The name of the user who failed to access the accountants folder security groups
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kPaz05h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/071H6Ti.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/slDhMOL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lastly, on this lab a folder called Helpdesk was created and a random user from Client-1 tried to access it but access was denied. Thus, his permission was granted on DC-1 Cybercurity SG which then enabled him to gain access to Helpdesk folder and files.
+Lastly, on this lab a folder called Helpdesk was created and a random user from Client-1 (Baj Ter) tried to access it but access was denied. Thus, his permission was granted on DC-1 Cybercurity SG which then enabled him to gain access to Helpdesk folder and files. User Baj.ter is now able to open and write on the folder helpdesk as shown above.
 </p>
 <br />
