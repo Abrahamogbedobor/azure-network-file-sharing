@@ -35,18 +35,21 @@ The above figure was used to illustrate a general overview of network file shari
 <br />
 
 <p>
+<img src="https://i.imgur.com/KKaXkE0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The above figures outlines the steps used to create some files and share with permission. First, connection was made to DC-1 using the a domain admin account that was created bryanogbe.com\abraham_admin, then a connection into Client-1 using one of those random user that was created. Then on DC-1 on C:DRIVE, four folders was then created which includes "read-access", "write-access", "no-access", and "acounting". Again, share the following permission and folder created on DC-1 to the 'Domain Users' group 1. Read-access FOLDER to domain users permission GROUP READ 2. Write-access FOLDER to domain users permission GROUP READ/WRITE 3. No-access FOLDER to domain admins permission GROUP READ/WRITE. Then SKIP accounting for the now.
+The above figures outlines the steps used to create some files and share with permission. First, connection was made to DC-1 using the domain admin account that was created bryanogbe.com\abraham_admin, then a connection into Client-1 using one of those random user that was created. Then on DC-1 on C:DRIVE, four folders was then created which includes "read-access", "write-access", "no-access", and "acounting". Again, share the following permission and folder created on DC-1 to the 'Domain Users' group 1. Read-access FOLDER to domain users permission GROUP READ 2. Write-access FOLDER to domain users permission GROUP READ/WRITE 3. No-access FOLDER to domain admins permission GROUP READ/WRITE. Then SKIP accounting for the now. Notice, the network file sharing part each time a file has been shared.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QcT4OzG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5SgRiiO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/X9pKe10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Further
+Furthermore, Client-1 was logged into as a normal user then an observation was made to one of those shared folders with the aim of knowing which files users could access and which files users are unable to access. The folder with read only Cloient-1 was truly only to open it but unable to write on it as access was denied. Second figure is read/write meaning client-1 was able to open the file and add his/her contribution as shown above. Third figure Client-1 was unable to open it because it was given no access to read/write.
 </p>
 <br />
 
