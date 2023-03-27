@@ -76,15 +76,6 @@ The name of the user who failed to access the accountants folder security groups
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Root hint
-</p>
-<br />
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-CNAME stands for Canonic
+Lastly, on this lab a folder called Helpdesk was created and a random user from Client-1 tried to access it but access was denied. Thus, his permission was granted on DC-1 Cybercurity SG which then enabled him to gain access to Helpdesk folder and files.
 </p>
 <br />
