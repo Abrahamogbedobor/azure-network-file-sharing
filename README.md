@@ -57,7 +57,7 @@ Furthermore, Client-1 was logged into as a normal user then an observation was m
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The 
+The accounting folder that was previously created was used as a file sharing security group on this lab. Meaning, only individuals who are in the accounting group would have access to read/write on that folder. Firstly, in Active Directory on DC-1 a new OU was created called 'SECURITY GROUPS' and then ACCOUNTANTS and CYBERSECURITY was created as a new groups inside that OU security groups.
 </p>
 <br />
 
