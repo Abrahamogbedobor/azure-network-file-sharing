@@ -59,15 +59,16 @@ Furthermore, Client-1 was logged into as a normal user then an observation was m
 <img src="https://i.imgur.com/Aordyjj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The accounting folder that was previously created was used as a file sharing security group on this lab. Meaning, only individuals who are in the accounting group would have access to read/write on that folder. Firstly, in Active Directory on DC-1 a new OU was created called 'SECURITY GROUPS' and then ACCOUNTANTS and CYBERSECURITY was created as a new groups inside that OU security groups. Then, the accounting folder that was created in c:drive\\, the accountants security group was assigned to it and a read/write access was granted as shown in figure2.Then, in Client-1 computer a user tried accessing the accounting folder but his access was denied. Hence, that user will be given added to the accounting security grop in DC-1 computer and so as many other users in a real life scenario.
+The accounting folder that was previously created was used as a file sharing security group on this lab. Meaning, only individuals who are in the accounting group would have access to read/write on that folder. Firstly, in Active Directory on DC-1 a new OU was created called 'SECURITY GROUPS' and then ACCOUNTANTS and CYBERSECURITY was created as a new groups inside that OU security groups. Then, the accounting folder that was created in c:drive\\, the accountants security group was assigned to it and a read/write access was granted as shown in figure2.Then, in Client-1 computer a user tried accessing the accounting folder but his access was denied. Hence, that user needed to be added to the accountants security grop on DC-1 computer so as many other users in a real life scenario. Meaning, instead of adding just badi.vag, we could add 'domain users' if we are to give access to all users into accountants SG.
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/yl2Lepb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ezj6pBm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The name of the user who failed to access the accountants folder security groups was badi vag thus, he was added to the security groups on DC-1 as shown above.
+The name of the user who failed to access the accountants folder security groups was badi vag thus, he was added to the security groups on DC-1 as shown above. Theoretically, Badi Vag was now able to open the accounting folder but, he must first sign-out and sign back for the changes made to be effective. Badi Vag is now able to read/write on the accountants folder.
 </p>
 <br />
 
